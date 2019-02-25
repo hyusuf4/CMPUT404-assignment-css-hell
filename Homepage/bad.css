@@ -1,0 +1,121 @@
+body{
+  margin:0;
+}
+
+.nav-options{
+  margin:0;
+  padding: 20px;
+  height:35px;
+}
+.nav-item{
+  margin-right:90px;
+  margin-left:90px;
+}
+a{
+  color:white;
+  text-decoration:none;
+}
+a:hover{
+  background-color:gray;
+}
+.welcome_section p{
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  margin:auto;
+  font-size: 25px;
+}
+.welcome_section h1{
+  font-size:39px;
+}
+.site-header{
+  background:green;
+  height:720px;
+}
+.welcome_section{
+  margin-top:130px;
+  flex-direction:column;
+  color:white;
+  font-weight:bold;
+}
+.btn{
+  background-color: transparent;
+  border-color: #fff;
+  padding: 10px 20px;
+  font-size: 25px;
+  border-radius: 0;
+  border: 1px solid ;
+  width:150px;
+  text-align: center;
+  margin-top:25px;
+}
+.about_info{
+  margin-top: 60px;
+}
+.content{
+  width:100%;
+
+}
+
+#WorkExperience{
+  text-align: left;
+  background: pink;
+}
+
+.date{
+  font-size: 12px;
+}
+
+
+h2{
+  font-size: 36px;
+  color:#BAACE6;
+  text-align: center;
+}
+#my_img{
+  border-radius: 70%;
+  height:150px;
+  width:130px;
+  margin:0px 25px;
+}
+
+#skills{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom:70px;
+  width:70%;
+  font-size: 15px;
+  background: orange;
+}
+.container {
+  width: 100%;
+  background-color: silver;
+}
+
+.skills {
+  text-align: right;
+  padding: 10px;
+  color: white;
+}
+
+.html {width: 90%; background-color:#BAACE6;}
+.css {width: 70%; background-color: #BAACE6;}
+.js {width: 80%; background-color: #BAACE6;}
+.python {width: 80%; background-color: #BAACE6;}
+.java {width: 70%; background-color:#BAACE6;}
+.git {width: 90%; background-color: #BAACE6;}
+.react {width: 75%; background-color: #BAACE6;}
+.mongoDB {width: 75%; background-color: #BAACE6;}
+.express {width: 80%; background-color:#BAACE6;}
+
+#contact{
+  text-align: center;
+  margin-bottom:50px;
+}
+
+footer{
+  background:yellow;
+  height:100px;
+  color:white;
+}
